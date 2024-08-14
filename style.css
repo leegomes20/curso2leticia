@@ -10,7 +10,7 @@
     --roboto-mono: 'Roboto Mono', monospace;
 }
 
-   * {
+* {
     font-weight: 400;
 }
 
@@ -80,17 +80,18 @@ body {
     flex-direction: column;
     justify-content: center;
 }
+
 .parametro-senha {
     width: 50%;
     margin: 0 auto;
 }
 
-.parametro-senha-botoes{
+.parametro-senha-botoes {
     display: flex;
     justify-content: center;
 }
 
-.parametro-senha__botao{
+.parametro-senha__botao {
     background-color: var(--fundo-texto);
     color: var(--branco);
     border: 2px solid var(--borda);
@@ -98,7 +99,8 @@ body {
     font-size: 24px;
     cursor: pointer;
 }
-.parametro-senha__texto{
+
+.parametro-senha__texto {
     padding: 24px;
     border-top: 2px solid var(--borda);
     border-bottom: 2px solid var(--borda);
@@ -106,47 +108,51 @@ body {
     font-size: 24px;
 }
 
-label{
+label {
     font-size: 20px;
 }
 
-.checkbox{
+.checkbox {
     width: 20px;
     height: 20px;
     cursor: pointer;
 }
 
-.barra{
+.barra {
     background-color: var(--fundo-senha);
     height: 30px;
     width: 100%;
 }
-.forca{
+
+.forca {
     height: 30px;
     position: relative;
     bottom: 30px;
 }
-.fraca{
+
+.fraca {
     width: 25%;
-    background-color: #E71B32; 
+    background-color: #E71B32;
 }
-.media{
+
+.media {
     background-color: #FAF408;
     width: 50%;
 }
-.forte{
+
+.forte {
     background-color: #00FF85;
     width: 100%;
 }
 
-.parametro-senha-textos{
+.parametro-senha-textos {
     display: flex;
     justify-content: space-between;
 }
 
 
 @media screen and (min-width: 768px) {
-    .parametro-coluna__senha{
+    .parametro-coluna__senha {
         flex-direction: row;
     }
 }
