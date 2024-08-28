@@ -26,11 +26,11 @@ function aumentaTamanho() {
         // tamanhoSenha = tamanhoSenha+1;
         tamanhoSenha++;
     }
-    numeroSenha.textContent = tamanhoSenha;
+    numeroSenha.textContent = tamanhoSenha; 
     geraSenha();
 }
 
-for (i = 0; i < checkbox.length; i++) {
+for (i = 0; i < checkbox.length; i++) { 
     checkbox[i].onclick = geraSenha;
 }
 
